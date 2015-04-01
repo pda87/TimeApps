@@ -17,3 +17,12 @@ Ascii art from <a href="http://patorjk.com/software/taag/">here</a>.
 <figcaption>Timer</figcaption>
 <img src = "https://github.com/pda87/TimeApps/blob/master/images/Timer.PNG">
 </figure>
+
+
+
+<figure>
+<figcaption>BinaryClock</figcaption>
+<img src = "https://github.com/pda87/TimeApps/blob/master/images/BinaryClock.PNG">
+</figure>
+
+https://github.com/pda87/TimeApps/blob/master/images/BinaryClock.PNG
