@@ -1,5 +1,5 @@
 <h1>Time Apps</h1>
-<h2>This folder so far contains 3 C# Console Applications: a clock, stopwatch and timer.</h2>
+<h2>This folder so far contains 4 C# Console Applications: a clock, stopwatch, timer and binary clock.</h2>
 
 Ascii art from <a href="http://patorjk.com/software/taag/">here</a>.
 
@@ -17,8 +17,6 @@ Ascii art from <a href="http://patorjk.com/software/taag/">here</a>.
 <figcaption>Timer</figcaption>
 <img src = "https://github.com/pda87/TimeApps/blob/master/images/Timer.PNG">
 </figure>
-
-
 
 <figure>
 <figcaption>BinaryClock</figcaption>
