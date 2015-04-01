@@ -1,0 +1,6 @@
+c:\users\petedarden\documents\visual studio 2013\Projects\BinaryClock\BinaryClock\bin\Debug\BinaryClock.exe.config
+c:\users\petedarden\documents\visual studio 2013\Projects\BinaryClock\BinaryClock\obj\Debug\BinaryClock.csprojResolveAssemblyReference.cache
+c:\users\petedarden\documents\visual studio 2013\Projects\BinaryClock\BinaryClock\bin\Debug\BinaryClock.exe
+c:\users\petedarden\documents\visual studio 2013\Projects\BinaryClock\BinaryClock\bin\Debug\BinaryClock.pdb
+c:\users\petedarden\documents\visual studio 2013\Projects\BinaryClock\BinaryClock\obj\Debug\BinaryClock.exe
+c:\users\petedarden\documents\visual studio 2013\Projects\BinaryClock\BinaryClock\obj\Debug\BinaryClock.pdb

@@ -1,0 +1,5 @@
+c:\users\petedarden\documents\visual studio 2013\Projects\BinaryClock\BinaryClock\bin\Release\BinaryClock.exe.config
+c:\users\petedarden\documents\visual studio 2013\Projects\BinaryClock\BinaryClock\bin\Release\BinaryClock.exe
+c:\users\petedarden\documents\visual studio 2013\Projects\BinaryClock\BinaryClock\bin\Release\BinaryClock.pdb
+c:\users\petedarden\documents\visual studio 2013\Projects\BinaryClock\BinaryClock\obj\Release\BinaryClock.exe
+c:\users\petedarden\documents\visual studio 2013\Projects\BinaryClock\BinaryClock\obj\Release\BinaryClock.pdb
