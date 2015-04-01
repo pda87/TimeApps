@@ -22,7 +22,6 @@ Ascii art from <a href="http://patorjk.com/software/taag/">here</a>.
 
 <figure>
 <figcaption>BinaryClock</figcaption>
+<p>
 <img src = "https://github.com/pda87/TimeApps/blob/master/images/BinaryClock.PNG">
 </figure>
-
-https://github.com/pda87/TimeApps/blob/master/images/BinaryClock.PNG
