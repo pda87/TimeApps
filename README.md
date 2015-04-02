@@ -26,6 +26,7 @@ Ascii art from <a href="http://patorjk.com/software/taag/">here</a>.
 
 <figure>
 <figcaption>ToDoList</figcaption>
+<p>
 <img src = "https://github.com/pda87/TimeApps/blob/master/images/ToDoList.PNG">
 </figure>
 
