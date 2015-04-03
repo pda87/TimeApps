@@ -10,9 +10,11 @@ namespace ToDoList
     {
         static void Main(string[] args)
         {
+            List<string> toDoList = new List<string>();
             Console.Title = ("ToDoList");
             Console.ForegroundColor = ConsoleColor.Green;
-
+            Console.SetWindowSize(80, 10 + toDoList.Count());
+            
             if (!Directory.Exists("C:\\ToDoList"))
             {
                 Directory.CreateDirectory("C:\\ToDoList");
@@ -21,22 +23,23 @@ namespace ToDoList
             
             bool programLoop = true;
             int i = 1;
-            List<string> dataList = new List<string>();
 
-            i = readFile(i, ref dataList);
+            i = readFile(i, ref toDoList);
 
             string input = "";
 
             while (programLoop)
             {
+                Console.WindowHeight = (10 + toDoList.Count());
 
-                Console.WriteLine("****************************");
-                Console.WriteLine("****** TODO LIST ***********");
-                Console.WriteLine("****************************");
+
+                Console.WriteLine("*******************************************************************************");
+                Console.WriteLine("****************************** TODO LIST **************************************");
+                Console.WriteLine("*******************************************************************************");
                 Console.WriteLine();
 
 
-                if (dataList.Count == 0)
+                if (toDoList.Count == 0)
                 {
                     Console.WriteLine("List is empty");
                     Console.WriteLine();
@@ -45,9 +48,9 @@ namespace ToDoList
 
                     if (input.ToUpper() == "L")
                     {
-                        dataList.Clear();
+                        toDoList.Clear();
                         Console.Clear();
-                        i = readFile(i, ref dataList);
+                        i = readFile(i, ref toDoList);
                         input = "";
                         continue;
                     }
@@ -62,21 +65,18 @@ namespace ToDoList
                     {
                         Console.WriteLine("Enter data:");
                         input = Console.ReadLine();
-
-                        dataList.Add(input);
-                        writeFile(dataList);
+                        toDoList.Add(input);
+                        writeFile(toDoList);
                         input = "";
                         Console.Clear();
                     }
-
-
+                    
                     Console.Clear();
                     continue;
                 }
-
-
+                
                 i = 1;
-                foreach (string item in dataList)
+                foreach (string item in toDoList)
                 {
                     Console.WriteLine(i + " " + item);
                     i++;
@@ -98,8 +98,8 @@ namespace ToDoList
                     Console.WriteLine("Enter data:");
                     input = Console.ReadLine();
 
-                    dataList.Add(input);
-                    writeFile(dataList);
+                    toDoList.Add(input);
+                    writeFile(toDoList);
                     input = "";
                     Console.Clear();
                 }
@@ -107,14 +107,14 @@ namespace ToDoList
 
                 if (input.ToUpper() == "L")
                 {
-                    dataList.Clear();
+                    toDoList.Clear();
                     Console.Clear();
-                    i = readFile(i, ref dataList);
+                    i = readFile(i, ref toDoList);
                     input = "";
                     continue;
                 }
 
-                if (dataList.Count == 0)
+                if (toDoList.Count == 0)
                 {
                     Console.Clear();
                     Console.WriteLine("List is empty");
@@ -131,23 +131,23 @@ namespace ToDoList
 
                 number = Convert.ToInt32(input);
 
-                if (dataList.Count < (number - 1) || number < 0 || number > dataList.Count || number == 0)
+                if (toDoList.Count < (number - 1) || number < 0 || number > toDoList.Count || number == 0)
                 {
                     Console.Clear();
                     continue;
                 }
 
-                dataList.RemoveAt(number - 1);
+                toDoList.RemoveAt(number - 1);
                 Console.WriteLine();
-                writeFile(dataList);
-                dataList.Clear();
+                writeFile(toDoList);
+                toDoList.Clear();
                 Console.Clear();
                 using (StreamReader reader = new StreamReader(@"C:\ToDoList\list.txt"))
                 {
                     string line = "";
                     while ((line = reader.ReadLine()) != null)
                     {
-                        dataList.Add(line);
+                        toDoList.Add(line);
                     }
                 }
 
