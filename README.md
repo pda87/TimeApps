@@ -11,6 +11,7 @@ Ascii art from <a href="http://patorjk.com/software/taag/">here</a>.
 
 <figure>
 <figcaption>Stopwatch</figcaption>
+<p>
 <img src = "https://github.com/pda87/TimeApps/blob/master/images/Stopwatch.PNG">
 </figure>
 
