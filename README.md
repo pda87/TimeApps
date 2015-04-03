@@ -17,6 +17,7 @@ Ascii art from <a href="http://patorjk.com/software/taag/">here</a>.
 
 <figure>
 <figcaption>Timer</figcaption>
+<p>
 <img src = "https://github.com/pda87/TimeApps/blob/master/images/Timer.PNG">
 </figure>
 
