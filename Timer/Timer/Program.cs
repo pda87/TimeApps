@@ -13,7 +13,7 @@ namespace Timer
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Clear();
             Console.Title = "Timer";
-            Console.SetWindowSize(100, 10);
+            Console.SetWindowSize(49, 10);
 
 
             Console.WriteLine("TTTTTTT IIIII MM    MM EEEEEEE RRRRRR");
@@ -21,7 +21,7 @@ namespace Timer
             Console.WriteLine("  TTT    III  MM MM MM EEEEE   RRRRRR");
             Console.WriteLine("  TTT    III  MM    MM EE      RR  RR");
             Console.WriteLine("  TTT   IIIII MM    MM EEEEEEE RR   RR");
-                                       
+
             Console.WriteLine();
             Console.WriteLine();
 
@@ -34,7 +34,7 @@ namespace Timer
 
             Console.WriteLine("Please enter the time to countdown from (HHMMSS):");
             string timerInput = Console.ReadLine();
-            
+
             int timerDigits = 0;
 
             if (!Int32.TryParse(timerInput, out timerDigits) || timerInput.Length != 6)
@@ -44,7 +44,7 @@ namespace Timer
                 Main(args);
             }
 
-            if (timerDigits > 235959)
+            if (timerDigits > 235959 || (timerDigits > 000059 && timerDigits < 000100) || (timerDigits > 005900 && timerDigits < 010000))
             {
                 Console.WriteLine("Input not understood. Please retry");
                 Console.ReadLine();
@@ -57,6 +57,8 @@ namespace Timer
 
             DateTime zerothHour = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, HH, MM, SS);
 
+            string loopBreak = "";
+            int i = 0;
 
             Console.Clear();
             while (true)
@@ -70,15 +72,51 @@ namespace Timer
                     Console.Beep();
                     break;
                 }
-                else if (Console.CapsLock)
+
+
+
+                if (i != 1)
+                {
+                    Console.SetCursorPosition(0, 3);
+                    Console.WriteLine("Press caps lock to stop the timer...");
+                }
+
+                if (Console.CapsLock)
+                {
+                    while (true)
+                    {
+                        Console.SetCursorPosition(0, 3);
+                        Console.WriteLine("Press caps lock then enter to start the timer...");
+                        Console.SetCursorPosition(0, 4);
+                        Console.WriteLine("Press caps lock, Q then enter to quit");
+                        loopBreak = Console.ReadLine();
+
+                        if (!Console.CapsLock)
+                        {
+                            Console.Clear();
+                            break;
+                        }
+                    }
+                }
+
+                if (i == 1)
                 {
                     break;
                 }
-                System.Threading.Thread.Sleep(1000);
+
+                if (loopBreak.ToUpper() == "Q")
+                {
+                    i++;
+                }
+
+                if (i != 1)
+                {
+                    System.Threading.Thread.Sleep(1000);
+                }
+                
                 Console.SetCursorPosition(0, 0);
                 Console.WriteLine(String.Format("{0:00}:{1:00}.{2:00}", zerothHour.Hour, zerothHour.Minute, zerothHour.Second));
                 Console.WriteLine();
-                Console.WriteLine("Press caps lock to stop the timer...");
                 zerothHour = zerothHour.AddSeconds(-1.0);
             }
 

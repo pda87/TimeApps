@@ -11,8 +11,7 @@ C:\Users\petedarden\Documents\Visual Studio 2013\OldProjects\Stopwatch\Stopwatch
 C:\Users\petedarden\Documents\Visual Studio 2013\OldProjects\Stopwatch\Stopwatch\bin\Debug\Stopwatch.pdb
 C:\Users\petedarden\Documents\Visual Studio 2013\OldProjects\Stopwatch\Stopwatch\obj\Debug\Stopwatch.csprojResolveAssemblyReference.cache
 C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\bin\Debug\Stopwatch.exe.config
-C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\obj\Debug\Stopwatch.exe
-C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\obj\Debug\Stopwatch.pdb
-C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\obj\Debug\Stopwatch.csprojResolveAssemblyReference.cache
 C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\bin\Debug\Stopwatch.exe
 C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\bin\Debug\Stopwatch.pdb
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\obj\Debug\Stopwatch.exe
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\obj\Debug\Stopwatch.pdb
