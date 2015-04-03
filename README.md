@@ -1,5 +1,5 @@
 <h1>Time Apps</h1>
-<h2>This folder so far contains 4 C# Console Applications: a clock, stopwatch, timer and binary clock.</h2>
+<h2>This folder so far contains 5 C# Console Applications: a clock, stopwatch, timer, binary clock and To do list.</h2>
 
 Ascii art from <a href="http://patorjk.com/software/taag/">here</a>.
 
