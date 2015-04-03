@@ -5,6 +5,7 @@ Ascii art from <a href="http://patorjk.com/software/taag/">here</a>.
 
 <figure>
 <figcaption>Clock</figcaption>
+<p>
 <img src = "https://github.com/pda87/TimeApps/blob/master/images/Clock.PNG">
 </figure>
 
