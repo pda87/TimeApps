@@ -1,0 +1,6 @@
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Timer\Timer\bin\Release\Timer.exe.config
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Timer\Timer\bin\Release\Timer.exe
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Timer\Timer\bin\Release\Timer.pdb
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Timer\Timer\obj\Release\Timer.csprojResolveAssemblyReference.cache
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Timer\Timer\obj\Release\Timer.exe
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Timer\Timer\obj\Release\Timer.pdb

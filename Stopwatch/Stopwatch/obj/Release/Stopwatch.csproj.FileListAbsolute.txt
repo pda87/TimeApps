@@ -1,0 +1,11 @@
+c:\users\peter\documents\visual studio 2013\Projects\Stopwatch\Stopwatch\bin\Release\Stopwatch.exe.config
+c:\users\peter\documents\visual studio 2013\Projects\Stopwatch\Stopwatch\bin\Release\Stopwatch.exe
+c:\users\peter\documents\visual studio 2013\Projects\Stopwatch\Stopwatch\bin\Release\Stopwatch.pdb
+c:\users\peter\documents\visual studio 2013\Projects\Stopwatch\Stopwatch\obj\Release\Stopwatch.exe
+c:\users\peter\documents\visual studio 2013\Projects\Stopwatch\Stopwatch\obj\Release\Stopwatch.pdb
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\bin\Release\Stopwatch.exe.config
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\obj\Release\Stopwatch.exe
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\obj\Release\Stopwatch.pdb
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\bin\Release\Stopwatch.exe
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\bin\Release\Stopwatch.pdb
+C:\Users\petedarden\Documents\Visual Studio 2013\Projects\Stopwatch\Stopwatch\obj\Release\Stopwatch.csprojResolveAssemblyReference.cache
